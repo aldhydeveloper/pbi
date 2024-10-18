@@ -5,6 +5,6 @@ import { LoginComponent } from './login/login.component';
 export const routes: Routes = [
     { path: 'dashboard', component: DashboardComponent },
     { path: 'login', component: LoginComponent },
-    { path: '', redirectTo: 'login', pathMatch: 'full' },
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
     // { pat
 ];
